@@ -1,0 +1,25 @@
+# 依赖（本项目不需要，留着以防有人加工具链）
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# 系统垃圾
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 日志与临时文件
+*.log
+*.tmp
+*.bak
+
+# 本地环境与凭据（AI Key 存在浏览器里，这里只是防止误提交）
+.env
+.env.local
+.env.*.local
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
